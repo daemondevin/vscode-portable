@@ -1,0 +1,15 @@
+# ----------------------- #
+# Site
+# ----------------------- #
+
+title: Visual Studio Code Portable
+author: Gareth Flowers
+
+# ----------------------- #
+# Jekyll
+# ----------------------- #
+
+markdown: kramdown
+exclude:  [ Gemfile, Gemfile.lock, README.md, vendor/ ]
+gems:
+  - jekyll-sitemap
