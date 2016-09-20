@@ -43,7 +43,7 @@
 
         <h1>{{ site.github.project_tagline }}</h1>
 
-        <div id="links">
+        <nav id="links">
 
           <div>
             <a href="{{ site.github.releases_url }}/" class="button">
@@ -55,7 +55,7 @@
               <img src="/images/github.svg" alt="GitHub"> View on GitHub</a>
           </div>
 
-        </div>
+        </nav>
 
       </section>
 
@@ -66,10 +66,7 @@
     </div>
 
     <footer>
-
-      <div><a href="{{ site.github.repository_url }}">Made with ♥ by
-        <a href="/">{{ site.github.owner_name }}</a></div>
-
+      Made with <span class="love" title="love">❤</span> by <a href="/" class="by">@{{ site.github.owner_name }}</a>
     </footer>
 
   </body>
