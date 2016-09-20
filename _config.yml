@@ -10,6 +10,10 @@ author: Gareth Flowers
 # ----------------------- #
 
 markdown: kramdown
-exclude:  [ Gemfile, Gemfile.lock, README.md, vendor/ ]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
 gems:
   - jekyll-sitemap
