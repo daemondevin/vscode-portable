@@ -31,9 +31,7 @@
   </head>
   <body>
 
-    <header>
-      {{ site.title }}
-    </header>
+    <header>{{ site.title }}</header>
 
     <div id="content">
 
@@ -59,14 +57,14 @@
 
       </section>
 
-      <section>
-        {{ content }}
-      </section>
+      <section>{{ content }}</section>
 
     </div>
 
     <footer>
-      Made with <span class="love" title="love">❤</span> by <a href="/" class="by">@{{ site.github.owner_name }}</a>
+      <img src="/images/code.svg" alt="Code" class="icon code"> with
+      <img src="/images/heart.svg" alt="Love" class="icon heart"> by
+      <a href="/" class="icon author">{{ site.author }}</a>
     </footer>
 
   </body>
